@@ -5,7 +5,8 @@
 
 # Descrição do Projeto
 ```
-App para mostrar os dados climáticos de um local específico que você informar incluindo a posição no mapa.
+App para mostrar os dados climáticos de um local específico que você 
+informar incluindo a posição no mapa.
 ```
 
 ## Procedimento de instalação e usabilidade do app
