@@ -1,78 +1,58 @@
-## React +  OpenWeatherMap Api + OpenStreetMaps Api
-![Alt text](public/CapturaElTiempo.PNG?raw=true "React +  OpenWeatherMap Api + OpenStreetMaps Api")
-## IMPORTANTE
+<p align="center">
+  <a href="https://reactjs.org/" target="blank"><img src="./src/assets/logo-react.png" width="200" alt="ReactJs" /></a>
+</p>
 
-Necesitas tener una cuenta en [OpenWeatherMaps](https://openweathermap.org/api) para usar tu API KEY
 
-Debes añadirla en el archivo src/App.js en la línea 20.
+# Descrição do Projeto
+```
+App para mostrar os dados climáticos de um local específico que você informar incluindo a posição no mapa.
+```
 
----
+## Procedimento de instalação e usabilidade do app
+```
+Registre-se no site da API:
+https://openweathermap.org/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Inclua sua chave no src/App.js
+linha 19 em appid=XXXXXXXXXXXXXXXXXXX
+```
 
-## Available Scripts
+## Instale o Pacote 
+```
+npm install
+```
 
-In the project directory, you can run:
+## após isto rode o projeto
+```
+npm start
+```
 
-### `npm start`
+Acesse via.\
+Endereço [http://localhost:3000](http://localhost:3000) no browser.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Para executar testes
+```
+npm test
+```
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## gerar build
+```
+npm run build
+```
 
-### `npm test`
+## Tela após rodar o projeto
+<img src="./src/assets/tela.png" alt="Tela do Projeto" /> 
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Postman
+<img src="./src/assets/postman.png" alt="Postman" /> 
 
-### `npm run build`
+```
+Para testar no Postman ou Insomnia utilize a URL:
+https://api.openweathermap.org/data/2.5/weather?q=Fortaleza&units=metric&lang=pt_br&appid=0720188f76903c6fe50931b602a81073
+```
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Suporte:
+``` 
+E-Mail:   gpatricio.melo@gmail.com 
+WhatsApp: (85) 9 9763-5122
+```
