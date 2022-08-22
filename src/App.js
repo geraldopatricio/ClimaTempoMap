@@ -16,7 +16,7 @@ function App() {
     if(cidade === '') return;
     const consultarAPI = async () => {
    
-      const appId = '0720188f76903c6fe50931b602a81073';
+      const appId = 'SUA_CHAVE_AKI';
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${cidade},${pais}&APPID=${appId}`;
       const resposta = await fetch(url);
       const resultado = await resposta.json();
