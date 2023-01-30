@@ -56,6 +56,6 @@ https://api.openweathermap.org/data/2.5/weather?q=Fortaleza&units=metric&lang=pt
 
 ## Suporte:
 ``` 
-E-Mail:   gpatricio.melo@gmail.com 
-WhatsApp: (85) 9 9763-5122
+E-Mail: geraldo@gpsoft.com.br 
+WhatsApp: (85) 9 9731-9843
 ```
